@@ -116,7 +116,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	<repositories>
+	<repositories> 
 		<!-- Cloudbees maven repositories for releases and snapshots -->
 		<repository>
 			<id>markus627-cloudbees-release</id>
