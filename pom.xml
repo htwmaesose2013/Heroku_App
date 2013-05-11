@@ -109,6 +109,14 @@
 	<repositories> 
 		<!-- Cloudbees maven repositories for releases and snapshots -->
 		<repository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>central</id>
+      <name>Maven Repository Switchboard</name>
+      <url>http://repo1.maven.org/maven2</url>
+    </repository>
+		<repository>
 			<id>markus627-cloudbees-release</id>
 			<name>markus627-cloudbees-release</name>
 			<url>http://repository-markus627.forge.cloudbees.com/release/</url>
@@ -130,14 +138,7 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
-    <repository>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <id>central</id>
-      <name>Maven Repository Switchboard</name>
-      <url>http://repo1.maven.org/maven2</url>
-    </repository>
+    
  		</repositories>
 
 </project>
