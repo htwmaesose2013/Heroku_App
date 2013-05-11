@@ -121,7 +121,7 @@
 		<repository>
 			<id>markus627-cloudbees-release</id>
 			<name>markus627-cloudbees-release</name>
-			<url>https://repository-markus627.forge.cloudbees.com/release/</url>
+			<url>http://repository-markus627.forge.cloudbees.com/release/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -132,7 +132,7 @@
 		<repository>
 			<id>markus627-cloudbees-snapshot</id>
 			<name>markus627-cloudbees-snapshot</name>
-			<url>https://repository-markus627.forge.cloudbees.com/snapshot/</url>
+			<url>http://repository-markus627.forge.cloudbees.com/snapshot/</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>

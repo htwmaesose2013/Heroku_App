@@ -17,6 +17,7 @@ public class StartWebApp {
         webapp.setContextPath("/");
         // change the name of the war as needed.
         webapp.setWar("target/webapp/maeproject2013.war");
+        //webapp.setWar("../webapp/maeproject2013.war");
         
 
         server.setHandler(webapp);
